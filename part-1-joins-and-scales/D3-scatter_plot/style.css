@@ -1,0 +1,22 @@
+body {
+    overflow-x: hidden;
+}
+
+circle {
+    fill: #47d;
+}
+
+text {
+    font-size: 12px;
+}
+
+.head-text {
+    font-size: 2vw;
+    transform: translate(-6vw, -10px);
+    fill: #555;
+    font-family: sans-serif;
+}
+
+.tick line {
+    color: #f2f2f2;
+}

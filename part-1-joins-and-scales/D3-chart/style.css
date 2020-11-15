@@ -1,0 +1,11 @@
+body {
+    overflow-x: hidden;
+}
+
+svg rect {
+    fill: #47d;
+}
+
+text {
+    font-size: 12px;
+}

@@ -1,0 +1,23 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+svg {
+    background-color: rgb(120, 189, 189);
+}
+
+.country {
+    stroke: rgb(70, 70, 70);
+    stroke-width: 0.1px;
+    transition: .5s;
+}
+
+.country:hover {
+    fill: brown;
+}
+
+.text-legend {
+    transform: translateY(7px);
+    fill: rgb(255, 255, 255);
+}

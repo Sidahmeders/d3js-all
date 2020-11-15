@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden;
+}
+
+circle {
+    stroke: #888;
+}
+
+text {
+    fill: #333;
+    font-size: 22px;
+    text-anchor: start;
+    transform: translateY(5px);
+}

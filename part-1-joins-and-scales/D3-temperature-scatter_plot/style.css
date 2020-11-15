@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+
+circle {
+    fill: #f00;
+    opacity: .5;
+}
+
+text {
+    font-size: 12px;
+}
+
+.side-text, .bottom-text {
+    font-size: 1.5vw;
+    fill: #555;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.side-text {
+    transform: translate(-3em, 58vh) rotate(-90deg);
+}
+
+.bottom-text {
+    transform: translate(35vw, 92vh);
+}
+
+.tick line {
+    color: #f2f2f2;
+}

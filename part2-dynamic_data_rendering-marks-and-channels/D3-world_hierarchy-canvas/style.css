@@ -1,0 +1,14 @@
+body {
+    overflow-x: hidden;
+    font-family: monospace;
+}
+
+path {
+    fill: none;
+    stroke: rgb(156, 214, 216);
+}
+
+text {
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    pointer-events: none;
+}

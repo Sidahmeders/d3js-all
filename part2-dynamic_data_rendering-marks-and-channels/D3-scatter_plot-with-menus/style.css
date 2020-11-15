@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+}
+
+circle {
+    fill: #d74;
+    opacity: .5;
+}
+
+text {
+    font-size: 12px;
+}
+
+.side-text, .bottom-text {
+    font-size: 20px;
+    fill: rgb(0, 0, 0);
+    text-shadow: 0 0 10px #fff;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.side-text {
+    transform: translate(-3em, 45vh) rotate(-90deg);
+}
+
+.bottom-text {
+    transform: translate(40vw, 80vh);
+}
+
+.tick line {
+    color: #f2f2f2;
+}
+
+#menus {
+    display: flex;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+#menus select {
+    font-size: 20px;
+    padding: 4px 10px;
+    outline: none;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}

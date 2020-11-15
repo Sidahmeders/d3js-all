@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden;
+}
+
+text {
+    font-size: 12px;
+}
+
+.side-text, .bottom-text {
+    font-size: 1.5vw;
+    fill: rgb(35, 134, 216);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.side-text {
+    transform: translate(-3em, 58vh) rotate(-90deg);
+}
+
+.bottom-text {
+    transform: translate(35vw, 92vh);
+}
+
+.tick line {
+    color: #cacaca;
+}
+
+.area-path {
+    fill: rgb(100, 128, 0);
+}

@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
+text {
+    fill: #333;
+    font-size: 22px;
+    text-anchor: middle;
+    transform: translate(3px ,75px);
+}
